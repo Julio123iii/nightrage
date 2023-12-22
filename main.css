@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body > header {
+    background-color: black;
+    color: white;
+    padding: 25px 0;
+}
+
+header h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1100px;
+    width: 100%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container img {
+    width: 500px;
+    vertical-align: middle;
+}
+
+.promotion {
+    align-self: center;
+}
+
+form button {
+    display: block;
+    width: 180px;
+    margin-bottom: 8px;
+    padding: 8px;
+    color: white;
+    font-size: large;
+    background-color: black;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(45, 41, 41);
+}
+
+.container-product .product-games img {
+    margin: 5px;
+    width: 270px;
+    height: 300px;
+}
+
+.product-games {
+    display: flex;
+    justify-content: center;
+}
+
+.container h1 {
+    align-items: center;
+    width: flex;
+}
+.container-product h1 {
+    max-width: 1100px;
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#produtos {
+    background-image: url(https://img.freepik.com/fotos-gratis/fundo-de-quadro-negro_53876-110809.jpg?w=1060&t=st=1703123750~exp=1703124350~hmac=52c719f06899a6d7c7a5b6dcf4c3a0520769841ed64444ab3173ce1a58bc7165);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.add-list {
+    display: block;
+    width: 180px;
+    margin-bottom: 8px;
+    padding: 8px;
+    color: black;
+    font-size: large;
+    background-color: white;
+    cursor: pointer;
+}
+
+.add-list:hover {
+    background-color: black;
+    color: white;
+}
+
+.container .about {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.product-games img {
+    margin: 5px;
+    width: 270px;
+    height: 300px;
+}
+
+.about {
+    padding-top: 25px;
+    align-items: center;
+    width: flex;
+}
+
+.about-us {
+    padding-left: 25px;
+}
+
+.contact-methods {
+    position: relative;
+    padding-top: 25px;
+    width: 809px;
+    height: 300px;
+    display: block;
+}
+
+form input,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+.contact-container {
+    align-items: center;
+    display: flex;
+}
+
+.contact-container p{
+    padding-top: 15px;
+}
+
+.contact-container img {
+    width: 60px;
+    padding-left: 15px;
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 16px;
+}
